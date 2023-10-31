@@ -10,6 +10,14 @@
       crossorigin="anonymous"
     />
     <title>The Explorer Journey</title>
+    <style>
+      .card-text {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -70,7 +78,7 @@
       <h4>Saldi</h4>
       <div class="row g-2" id="sectionToHide">
         <div class="col-3">
-          <div class="card border-2 border-info" style="height: 53vh">
+          <div class="card border-2 border-info">
             <img
               src="https://www.dreamtrip.it/wp-content/uploads/2019/10/highlands-scozia.jpg"
               class="card-img-top object-fit-cover"
@@ -88,7 +96,7 @@
           </div>
         </div>
         <div class="col-3">
-          <div class="card border-2 border-info" style="height: 53vh">
+          <div class="card border-2 border-info">
             <img
               src="https://www.italvacanze.net/wp/wp-content/uploads/2020/04/ireland-4945565_1920.jpg"
               class="card-img-top object-fit-cover"
@@ -103,7 +111,7 @@
           </div>
         </div>
         <div class="col-3">
-          <div class="card border-2 border-info" style="height: 53vh">
+          <div class="card border-2 border-info">
             <img
               src="https://www.corsedimoto.com/wp-content/uploads/2022/06/Capo-Nord.jpg"
               class="card-img-top object-fit-cover"
@@ -121,7 +129,7 @@
           </div>
         </div>
         <div class="col-3">
-          <div class="card border-2 border-info" style="height: 53vh">
+          <div class="card border-2 border-info">
             <img
               src="https://www.sognandoilgiappone.com/wp-content/uploads/2023/01/fuji-chureito-pagoda-scaled.jpeg"
               class="card-img-top object-fit-cover"
@@ -144,7 +152,7 @@
       <h4>Welcome Summer</h4>
       <div class="row g-2" id="sectionToHide">
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://www.antologiaviaggi.it/TLStreamMimeBlobField.svt?mime=image/*&tableName=gen_tela_meta_travels&fieldName=TRAVEL_SLIDE_LARGE_IMAGE_1&pKey=31588&expires=864000&inLine=true&outputFile=antologiaviaggi_travel_slide_large_image_1_31588.jpg"
               class="card-img-top object-fit-cover"
@@ -162,7 +170,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://hips.hearstapps.com/hmg-prod/images/al-khazneh-in-petra-royalty-free-image-1597755295.jpg"
               class="card-img-top object-fit-cover"
@@ -180,7 +188,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://www.viaggisicuri.com/viaggiareinformati/wp-content/uploads/2020/07/Foto-articolo-1000x641.jpg"
               class="card-img-top object-fit-cover"
@@ -198,7 +206,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://strapi-imaginary.weroad.it/resource/cover/3609/tour-di-8-giorni-in-andalusia.jpg"
               class="card-img-top object-fit-cover"
@@ -207,13 +215,16 @@
             />
             <div class="card-body">
               <h5 class="card-title">Andalusia</h5>
-              <p class="card-text">Andalusia 360°: Siviglia, Malaga, Cordoba e Granada.</p>
+              <p class="card-text">
+                Andalusia 360°: Siviglia, Malaga, Cordoba e Granada. I monumenti più belli d'Andalusia · Alhambra di
+                Granada: Guida alla Visita · Plaza de España: la piazza di Siviglia che abbraccia la Spagna e il mondo.
+              </p>
               <a href="#" class="btn btn-primary">Prenota</a>
             </div>
           </div>
         </div>
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/474000/474772-Australia.jpg"
               class="card-img-top object-fit-cover"
@@ -228,7 +239,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="card shadow mb-5" style="height: 52vh">
+          <div class="card shadow mb-5">
             <img
               src="https://images.lonelyplanetitalia.it/uploads/belize-mare?q=80&p=slider&s=8915544ca6be066efb3a4f0675572afa"
               class="card-img-top object-fit-cover"
@@ -236,7 +247,7 @@
               alt="Belize"
             />
             <div class="card-body">
-              <h5 class="card-title">Australia</h5>
+              <h5 class="card-title">Belize</h5>
               <p class="card-text">Belize 360°: templi Maya, spiagge caraibiche e il Blue Hole.</p>
               <a href="#" class="btn btn-primary">Prenota</a>
             </div>
@@ -327,42 +338,60 @@
     <div class="container mt-3" id="recensioni">
       <h4 class="d-flex justify-content-center">Dicono di noi</h4>
       <div class="row">
-        <div class="col-2">
+        <div class="col-1">
           <img
             src="../assets/user.png"
             alt="user profile"
             class="img-thumbnail border-2 border-info rounded-circle p-0"
           />
         </div>
-        <div class="col">
+        <div class="col-11">
           <h5>Username</h5>
-          <p>Comment</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fugit consequatur rerum ex minima, rem esse
+            dicta provident voluptate alias? Repellendus ratione eos autem molestias quod illum ea eaque blanditiis.
+            Laborum illo tempore magnam quia corporis voluptate ad, est dolorum fugit eius quo ipsam quis ut sapiente
+            illum, dolore quidem labore aspernatur explicabo accusamus provident. Dolore illum voluptatibus commodi
+            voluptatem!
+          </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-2">
+        <div class="col-1">
           <img
             src="../assets/user.png"
             alt="user profile"
             class="img-thumbnail border-2 border-info rounded-circle p-0"
           />
         </div>
-        <div class="col">
+        <div class="col-11">
           <h5>Username</h5>
-          <p>Comment</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fugit consequatur rerum ex minima, rem esse
+            dicta provident voluptate alias? Repellendus ratione eos autem molestias quod illum ea eaque blanditiis.
+            Laborum illo tempore magnam quia corporis voluptate ad, est dolorum fugit eius quo ipsam quis ut sapiente
+            illum, dolore quidem labore aspernatur explicabo accusamus provident. Dolore illum voluptatibus commodi
+            voluptatem!
+          </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-2">
+        <div class="col-1">
           <img
             src="../assets/user.png"
             alt="user profile"
             class="img-thumbnail border-2 border-info rounded-circle p-0"
           />
         </div>
-        <div class="col">
+        <div class="col-11">
           <h5>Username</h5>
-          <p>Comment</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fugit consequatur rerum ex minima, rem esse
+            dicta provident voluptate alias? Repellendus ratione eos autem molestias quod illum ea eaque blanditiis.
+            Laborum illo tempore magnam quia corporis voluptate ad, est dolorum fugit eius quo ipsam quis ut sapiente
+            illum, dolore quidem labore aspernatur explicabo accusamus provident. Dolore illum voluptatibus commodi
+            voluptatem!
+          </p>
         </div>
       </div>
     </div>
