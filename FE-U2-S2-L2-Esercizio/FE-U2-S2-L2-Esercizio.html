@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>The Explorer Journey</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="../assets/logo-travel.png" alt="logo agency" width="40" height="25"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#saldi">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lastMinute">Last Minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recensioni">Recensioni</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bg-body-tertiary mt-3 p-5 rounded">
+      <div class="row">
+        <h3>The Explorer Journey</h3>
+        <div class="col-12 col-sm-10 col-md-6 col-xl-8 col-xxl-9 mt-4 mt-md-0">
+          <div>
+            <p>Trova uno slogan</p>
+          </div>
+          <button class="btn btn-primary d-none d-sm-inline-block">Prenota ora</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3" id="saldi">
+      <h4>Saldi</h4>
+      <div class="row g-2" id="sectionToHide">
+        <div class="col-3">
+          <div class="card border-2 border-info" style="height: 53vh">
+            <img
+              src="https://www.dreamtrip.it/wp-content/uploads/2019/10/highlands-scozia.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Highlands"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Scozia</h5>
+              <p class="card-text">
+                Scopri le meravigliose Highlands, alloggi, informazioni di viaggio, mappe, consigli utili, attività e
+                molto altro!
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border-2 border-info" style="height: 53vh">
+            <img
+              src="https://www.italvacanze.net/wp/wp-content/uploads/2020/04/ireland-4945565_1920.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Irlanda"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dublino</h5>
+              <p class="card-text">Scopri i nostri pacchetti vacanze a Dublino e vivi momenti indimenticabili.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border-2 border-info" style="height: 53vh">
+            <img
+              src="https://www.corsedimoto.com/wp-content/uploads/2022/06/Capo-Nord.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Capo Nord bikers"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Capo Nord on the road</h5>
+              <p class="card-text">
+                Capo Nord con un percorso in moto in Scandinavia di 8.000 km da Amburgo attraverso Germania, Danimarca,
+                Svezia, Norvegia e Finlandia.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border-2 border-info" style="height: 53vh">
+            <img
+              src="https://www.sognandoilgiappone.com/wp-content/uploads/2023/01/fuji-chureito-pagoda-scaled.jpeg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Giappone"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Giappone</h5>
+              <p class="card-text">
+                Il “paese del Sol Levante”, dove tradizioni secolari convivono con tecnologie all'avanguardia.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3" id="welcomeSummer">
+      <h4>Welcome Summer</h4>
+      <div class="row g-2" id="sectionToHide">
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://www.antologiaviaggi.it/TLStreamMimeBlobField.svt?mime=image/*&tableName=gen_tela_meta_travels&fieldName=TRAVEL_SLIDE_LARGE_IMAGE_1&pKey=31588&expires=864000&inLine=true&outputFile=antologiaviaggi_travel_slide_large_image_1_31588.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Cappadocia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cappadocia</h5>
+              <p class="card-text">
+                Paesaggio spettacolare unico al mondo, dove la natura incontra la storia tra chiese rupestri, città
+                sotterranee e i camini delle fate.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://hips.hearstapps.com/hmg-prod/images/al-khazneh-in-petra-royalty-free-image-1597755295.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Petra"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Petra</h5>
+              <p class="card-text">
+                Petra, Giordania: cosa vedere, quanti giorni stare, quando andare, tutti i costi. Consigli e
+                informazioni per rendere perfetta la tua visita!
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://www.viaggisicuri.com/viaggiareinformati/wp-content/uploads/2020/07/Foto-articolo-1000x641.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Grecia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Grecia</h5>
+              <p class="card-text">
+                Le migliori offerte per viaggi e vacanze in Grecia. Offerte voli, hotel e pacchetti volo+hotel per
+                viaggi e vacanze a Santorini, Zante, Rodi, Creta e Corfù.
+              </p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://strapi-imaginary.weroad.it/resource/cover/3609/tour-di-8-giorni-in-andalusia.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Andalusia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Andalusia</h5>
+              <p class="card-text">Andalusia 360°: Siviglia, Malaga, Cordoba e Granada.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/474000/474772-Australia.jpg"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Australia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Australia</h5>
+              <p class="card-text">Australia 360°: da Sydney a Perth alla scoperta della terra dei canguri.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card shadow mb-5" style="height: 52vh">
+            <img
+              src="https://images.lonelyplanetitalia.it/uploads/belize-mare?q=80&p=slider&s=8915544ca6be066efb3a4f0675572afa"
+              class="card-img-top object-fit-cover"
+              style="height: 25vh"
+              alt="Belize"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Australia</h5>
+              <p class="card-text">Belize 360°: templi Maya, spiagge caraibiche e il Blue Hole.</p>
+              <a href="#" class="btn btn-primary">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <h4>Offerta del giorno</h4>
+      <div class="row d-flex justify-content-between">
+        <div class="col-7">
+          <img
+            src="https://www.pianetagaia.it/thumbs/903319/745/400/GroenlandiaAurora.jpg"
+            alt="Groenlandia"
+            class="rounded shadow mb-5"
+          />
+        </div>
+        <div class="col-5">
+          <h5>Groenlandia Expedition: avventura fra gli iceberg ai confini del mondo</h5>
+          <p class="font-monospace">23.06.24 - 30.06.24</p>
+          <p>6 notti</p>
+          <p>1 volo Interno DAY 5</p>
+          <p>Escursione guidata al Russel Glacier con BBQ vista Ghiacciaio</p>
+          <p>Escursione con trekking sul ghiacciaio al Point 660</p>
+          <p>Cancellazione gratuita con rimborso 100% fino a 31 giorni prima della partenza</p>
+
+          <h6>A PARTIRE DA 2.399€</h6>
+          <span class="badge rounded-pill text-bg-dark">Best Offer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3" id="lastMinute">
+      <h4>Last Minute</h4>
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="https://sognandocaledonia.com/wp-content/uploads/2016/07/route-66.jpg"
+            alt="Route66"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            src="https://www.wineandfoodtour.it/wp-content/uploads/2023/07/Valle-dei-Re.jpg"
+            alt="Valle dei Re"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            src="https://viaggidelgenio.it/wp-content/uploads/2022/07/taj-mahal-1000x565.jpg"
+            alt="Taj Mahal India"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            src="https://primapavia.it/media/2022/08/Norvegia.jpg"
+            alt="Norvegia"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            src="https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/05/foresta-amazzonica.jpg?im=AspectCrop=(16,9);"
+            alt="Amazzonia"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            src="https://strapi-imaginary.weroad.it/resource/coverMobile/13634/viaggio-avventura-newyork-mondo-skyline.jpg"
+            alt="New York"
+            class="img-thumbnail p-0 rounded object-fit-cover"
+            style="height: 20vh"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3" id="recensioni">
+      <h4 class="d-flex justify-content-center">Dicono di noi</h4>
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="../assets/user.png"
+            alt="user profile"
+            class="img-thumbnail border-2 border-info rounded-circle p-0"
+          />
+        </div>
+        <div class="col">
+          <h5>Username</h5>
+          <p>Comment</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="../assets/user.png"
+            alt="user profile"
+            class="img-thumbnail border-2 border-info rounded-circle p-0"
+          />
+        </div>
+        <div class="col">
+          <h5>Username</h5>
+          <p>Comment</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="../assets/user.png"
+            alt="user profile"
+            class="img-thumbnail border-2 border-info rounded-circle p-0"
+          />
+        </div>
+        <div class="col">
+          <h5>Username</h5>
+          <p>Comment</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
